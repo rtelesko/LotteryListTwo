@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
         String[] tips = new String[]{"Tip 1", "Tip 2", "Tip 3", "Tip 4", "Tip 5", "Tip 6", "Tip 7", "Tip 8", "Tip 9", "Tip 10",
         };
 
+        /*
+        What are possible Adapters ind Android?
+        BaseAdapter is a very generic adapter that allows you to do pretty much whatever you want.
+        However, you have to do a bit more coding yourself to get it working.
+        ArrayAdapter is a more complete implementation that works well for data in arrays or ArrayLists.
+        Similarly, there is a related CursorAdapter that you should use if your data is in a Cursor (e.g. in a database).
+        Both of these extend BaseAdapter.
+        */
+
         // Create an ArrayAdapter from the List
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
                 (this, android.R.layout.simple_list_item_1, tips);
