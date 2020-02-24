@@ -22,17 +22,7 @@ public class MainActivity extends AppCompatActivity {
         lvTips = findViewById(R.id.lvTips);
 
         // Initializing a new String Array
-        String[] tips = new String[]{
-                "Tip 1",
-                "Tip 2",
-                "Tip 3",
-                "Tip 4",
-                "Tip 5",
-                "Tip 6",
-                "Tip 7",
-                "Tip 8",
-                "Tip 9",
-                "Tip 10",
+        String[] tips = new String[]{"Tip 1", "Tip 2", "Tip 3", "Tip 4", "Tip 5", "Tip 6", "Tip 7", "Tip 8", "Tip 9", "Tip 10",
         };
 
         // Create an ArrayAdapter from the List
