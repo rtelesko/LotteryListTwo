@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         tips.add("Tip 9");
         tips.add("Tip 10");
         /*
-        What are possible Adapters ind Android?
+        What are possible Adapters in Android?
         BaseAdapter is a very generic adapter that allows you to do pretty much whatever you want.
         However, you have to do a bit more coding yourself to get it working.
         ArrayAdapter is a more complete implementation that works well for data in arrays or ArrayLists.
